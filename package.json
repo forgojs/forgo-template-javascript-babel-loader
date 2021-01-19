@@ -1,0 +1,19 @@
+{
+  "name": "forgo-template-js",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A template you can use to get started with Forgo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jeswin Kumar",
+  "dependencies": {
+    "forgo": "^0.0.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.12"
+  }
+}
