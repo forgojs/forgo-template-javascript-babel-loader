@@ -1,4 +1,4 @@
-# forgo-template-js
+# forgo-template-javascript
 
 A template you can use to get started with Forgo.
 
