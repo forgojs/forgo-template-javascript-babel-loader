@@ -1,6 +1,6 @@
 # forgo-template-javascript
 
-A template you can use to get started with Forgo. It uses parcel v2 as the bundler.
+A template you can use to get started with Forgo. It uses webpack as the bundler.
 
 # Getting started
 
