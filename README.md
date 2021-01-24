@@ -1,17 +1,32 @@
 # forgo-template-javascript
 
-A template you can use to get started with Forgo.
+A template you can use to get started with Forgo. It uses parcel v2 as the bundler.
 
-Clone this repo and use it as a base to get started.
+# Getting started
+
+Use degit to create a copy of this repo.
+
+```sh
+npx degit forgojs/forgo-template-javascript#main my-project
+```
+
+And then to run it:
+
+```sh
+# switch to the project directory
+cd my-project
+# Install dependencies
+npm i
+```
 
 # Running
 
 ```sh
-npx parcel index.html
+npm start
 ```
 
 ## Building
 
 ```sh
-npx parcel build src/index.js
+npm run build
 ```
