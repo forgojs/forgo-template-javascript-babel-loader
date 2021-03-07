@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "Your Name",
   "dependencies": {
-    "forgo": "^0.0.73"
+    "forgo": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
