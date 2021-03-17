@@ -5,8 +5,16 @@ function Parent(props) {
     render(props, args) {
       return (
         <div>
+          <h1>Forgo App</h1>
+          <p>
+            Welcome to Forgo. You'll need to edit this file in your favorite
+            editor.
+          </p>
+          <p>Let's greet a couple of strangers.</p>
+          <ul>
           <Greeter firstName="Jeswin" />
           <Greeter firstName="Kai" />
+          </ul>
         </div>
       );
     },
@@ -16,7 +24,7 @@ function Parent(props) {
 function Greeter(props) {
   return {
     render(props, args) {
-      return <div>Hello {props.firstName}</div>;
+      return <li>Hello {props.firstName}!</li>;
     },
   };
 }
