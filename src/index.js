@@ -7,7 +7,7 @@ function Parent(props) {
         <div>
           <h1>Forgo App</h1>
           <p>
-            Welcome to Forgo. You'll need to edit this file in your favorite
+            Welcome to Forgo. Start by editing src/index.js in your favorite
             editor.
           </p>
           <p>Let's greet a couple of strangers.</p>
