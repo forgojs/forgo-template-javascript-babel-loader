@@ -1,13 +1,13 @@
 import { mount } from "forgo";
 
-function Parent(props) {
+function App(initialProps) {
   return {
     render(props, args) {
       return (
         <div style={{ width: "400px", margin: "auto", textAlign: "center" }}>
           <h1>Forgo App</h1>
           <p>Welcome to Forgo.</p>
-          <Logo firstName="Jeswin" />
+          <Logo height="300" width="300" />
           <p>Start by editing src/index.js in your favorite editor.</p>
         </div>
       );
@@ -15,7 +15,7 @@ function Parent(props) {
   };
 }
 
-function Logo(props) {
+function Logo(initialProps) {
   return {
     render(props, args) {
       return (
@@ -23,8 +23,8 @@ function Logo(props) {
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           viewBox="0 0 135.46667 135.46667"
-          height="300"
-          width="300"
+          height={props.height}
+          width={props.width}
         >
           <g
             style="display:inline"
@@ -44,5 +44,5 @@ function Logo(props) {
 }
 
 window.addEventListener("load", () => {
-  mount(<Parent />, document.getElementById("root"));
+  mount(<App />, document.getElementById("root"));
 });
