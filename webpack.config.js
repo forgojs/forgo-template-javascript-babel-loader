@@ -2,6 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  entry: "./src/index.js",
+  devtool: "source-map",
   module: {
     rules: [
       {
@@ -12,18 +14,21 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
+    extensions: [".js", ".jsx"],
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, "./dist"),
+    filename: "bundle.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "index.html")
-    })
+      template: path.resolve(__dirname, "index.html"),
+    }),
   ],
   devServer: {
-    contentBase: path.resolve(__dirname, './dist')
+    contentBase: path.resolve(__dirname, "./dist"),
+    historyApiFallback: {
+      index: "/",
+    },
   },
 };
