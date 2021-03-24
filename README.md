@@ -7,7 +7,7 @@ A template you can use to get started with Forgo. It uses webpack as the bundler
 Use degit to create a copy of this repo.
 
 ```sh
-npx degit forgojs/forgo-template-javascript#main my-project
+npx degit forgojs/forgo-template-javascript-babel-loader#main my-project
 ```
 
 Install dependencies:
