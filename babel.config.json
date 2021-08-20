@@ -5,8 +5,8 @@
       "@babel/plugin-transform-react-jsx",
       {
         "throwIfNamespace": false,
-        "runtime": "automatic",
-        "importSource": "forgo"
+        "pragma": "forgo.createElement",
+        "pragmaFrag": "forgo.Fragment"
       }
     ]
   ]
