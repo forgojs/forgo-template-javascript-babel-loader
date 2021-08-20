@@ -1,3 +1,4 @@
+import * as forgo from "forgo";
 import { mount } from "forgo";
 
 function App(initialProps) {
