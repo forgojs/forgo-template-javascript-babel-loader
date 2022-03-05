@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "Your Name",
   "dependencies": {
-    "forgo": "^2.2.1",
+    "forgo": "^2.2.2",
     "forgo-state": "^1.0.4"
   },
   "devDependencies": {
